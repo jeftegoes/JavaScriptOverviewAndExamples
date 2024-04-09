@@ -2,15 +2,13 @@
 
 ## Contents <!-- omit in toc -->
 
-- [1. JavaScript](#1-javascript)
-  - [1.1. Classes](#11-classes)
-    - [1.1.1. Properties \& Methods](#111-properties--methods)
-  - [1.2. Spread \& Rest Operators](#12-spread--rest-operators)
-  - [1.3. Destructuring](#13-destructuring)
+- [1. Classes](#1-classes)
+  - [1.1. Properties \& Methods](#11-properties--methods)
+  - [Inheritance](#inheritance)
+- [2. Spread \& Rest Operators](#2-spread--rest-operators)
+- [3. Destructuring](#3-destructuring)
 
-# 1. JavaScript
-
-## 1.1. Classes
+# 1. Classes
 
 - Basic structure
   ```
@@ -30,7 +28,7 @@
     class Person extends Master
   ```
 
-### 1.1.1. Properties & Methods
+## 1.1. Properties & Methods
 
 - Properties are like "variables attached to classes/ objects".
   - **ES6**
@@ -53,7 +51,11 @@
       myMethod = () => { ... }
     ```
 
-## 1.2. Spread & Rest Operators
+## Inheritance
+
+- To create a class inheritance, use the `extends` keyword.
+
+# 2. Spread & Rest Operators
 
 - **Spread**
   - Used to split up array elements OR object properties
@@ -69,7 +71,7 @@
     }
   ```
 
-## 1.3. Destructuring
+# 3. Destructuring
 
 - Easily extract array elements or object properties and store them in variables.
 - **Array Destructuring**
